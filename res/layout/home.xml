@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/containerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#04CFBB" >
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listViewoption"
+        android:layout_width="200dp"
+        android:layout_height="match_parent" 
+        android:background="#EDEDED">
+        </ListView>
+
+</FrameLayout>
